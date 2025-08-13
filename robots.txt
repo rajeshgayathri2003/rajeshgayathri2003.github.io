@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://rajeshgayathri2003.github.io/al-folio/sitemap.xml
+Sitemap: https://rajeshgayathri2003.github.io/sitemap.xml
