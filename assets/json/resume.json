@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Gayathri Rajesh",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "g2rajesh@ucsd.edu",
+    "phone": "+91 8197768603",
+    "url": "https://rajeshgayathri2003.github.io/",
+    "summary": "Incoming Masters student in Computer Science at UC San Diego with focus on Robotics and Perception",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "San Diego",
       "countryCode": "US",
       "region": "California"
     },
@@ -151,13 +151,23 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
+      "language": "Tamil",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "Hindi",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner",
       "icon": ""
     }
   ],
