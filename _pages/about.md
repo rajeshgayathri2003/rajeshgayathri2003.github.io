@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Masters Student in Computer Science at <a href='https://cse.ucsd.edu/graduate/degree-programs/ms-program'>UC San Diego</a>
+subtitle: <b> Incoming Masters Student in Computer Science at <a href='https://cse.ucsd.edu/graduate/degree-programs/ms-program'>UC San Diego</a> </b>
 
 profile:
   align: right

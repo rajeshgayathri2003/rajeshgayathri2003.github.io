@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-07-26 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Graduated from NIT Tiruchirappalli with a B.Tech in Electrical and Electronics Engineering!
