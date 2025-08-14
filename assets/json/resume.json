@@ -39,8 +39,8 @@
       "name": "National Institute of Technology Tiruchirappalli",
       "position": "Bachelor's Thesis",
       "url": "https://drive.google.com/file/d/10K647d7aNXsILvPrPsoLgVDtJsf0rt90/view",
-      "startDate": "January 2025",
-      "endDate": "June 2025",
+      "startDate": "01/2025",
+      "endDate": "06/2025",
       "summary": "Worked on a integrated Game Theory and Deep Reinforcement Learning approach to solve the electric vehicle pricing and routing problem",
       "highlights": ["Non-Cooperative Game, Q-Learning, Deep Q-Learning"]
     },
@@ -48,8 +48,8 @@
       "name": "University of Southern California",
       "position": "Summer Research Student",
       "url": "https://drive.google.com/file/d/1wGsHSljSksXaWBtLBIq1QANHwP2YaJFp/view",
-      "startDate": "May 2024",
-      "endDate": "March 2025",
+      "startDate": "05/2024",
+      "endDate": "03/2025",
       "summary": "Leveraged pre-trained foundation models like GPT-4 and GPT-4o to obtain low-level instructions for fabric manipulations tasks like fabric folding and fabric smoothing using bimanual robotic arms",
       "highlights": ["Large Language Models, Deformable Object Manipulation"]
     },
@@ -57,8 +57,8 @@
       "name": "Indian Institute of Technology Madras",
       "position": "Summer Research Student",
       "url": "https://drive.google.com/file/d/17aJvBiP0Ww0paB2pxTceTwxf-p9paRpj/view",
-      "startDate": "May 2023",
-      "endDate": "July 2023",
+      "startDate": "05/2023",
+      "endDate": "07/2023",
       "summary": "Enhanced extreme low-light images using the U-net and modifed U-net architectures",
       "highlights": ["U-nets, Deep Learning, Transformers"]
     }
