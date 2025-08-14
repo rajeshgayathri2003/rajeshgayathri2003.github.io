@@ -208,7 +208,6 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-terser
@@ -216,6 +215,7 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
+#jekyll/scholar
 # Sitemap settings
 defaults:
   - scope:
