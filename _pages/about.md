@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Masters Student in Computer Science at <a href='https://cse.ucsd.edu/graduate/degree-programs/ms-program'>UC San Diego</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: gayathri.JPG
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,6 +23,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+My broad research interests lie at the intersection of `Robotics`, `Machine Learning` and `Computer Vision`. My goal is to build general purpose robots that are task agnostic, can generalise different environments and seamlessly operate in the real world.
+
+I recently graduated with a B.Tech from NIT Tiruchirappalli, India where I majored in Electrical and Electronics Engineering. Previously, I worked with the most incredible Prof Daniel Seita at the University of Southern California. My work involved leveraging the capabilities of Pre-trained foundation models for fabric manipulation tasks. 
+
+As a part of my Bachelor's Thesis, I worked under Dr. Ankur Singh Rana to develop an integrated Game Theory and Reinforcement Learning approach to Electric Vehicle pricing and routing. Further, I also worked with Prof Kaushik Mitra at IIT Madras on low-light image enhancement using U-net based architectures. 
+
+During my undergraduate study, I was a part of the Robotics and Machine Intelligence club. This club nutured my love for robotics and helped me connect with several passionate roboticists at NIT Tiruchirappalli. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
