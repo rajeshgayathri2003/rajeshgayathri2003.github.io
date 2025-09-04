@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-a-beginner-39-s-guide-to-undergraduate-research",
+        
+          title: "A Beginner&#39;s Guide to Undergraduate Research",
+        
+        description: "An introductory guide for undergraduate students aiming to pursue research",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/beginners-guide-to-undergraduate-research/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
