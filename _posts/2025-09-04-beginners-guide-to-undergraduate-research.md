@@ -4,7 +4,6 @@ title: A Beginner's Guide to Undergraduate Research
 date: 2025-09-04 00:00:00
 description: An introductory guide for undergraduate students aiming to pursue research
 tags: research
-categories: research
 ---
 
 # Starting Your Research Journey as an Undergraduate
