@@ -10,23 +10,24 @@ related_publications: true
 
 Enhanced extreme low-light images with illuminance in the 0.1 to 5 lux range using U-net and modified U-net architectures.
 
-    <!-- ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    --- -->
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/unet.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/modifiedunet.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/modifiedUnet.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     U-net architecture & modified U-net architecture
+</div>
+
+This is a sample of an extreme low-light image given as input to the network.
+
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/lowlight.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 These are the results obtained using the U-net architecture.
@@ -44,13 +45,6 @@ These are the results obtained using the U-net architecture.
     The ground truth image is on the left and the enhanced image is on the right.
 </div>
 
-This is a sample of an extreme low-light image given as input to the network.
-
-<div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/lowlight.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 These are the results obtained using the modified U-net architecture.
 
