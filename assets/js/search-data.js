@@ -60,8 +60,8 @@ ninja.data = [{
           description: "Guide - Prof Kaushik Mitra, IIT Madras, Chennai, India",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-leveraging-pre-trained-foundation-models-for-fabric-manipulation-tasks",
-          title: 'Leveraging Pre-trained Foundation Models for fabric manipulation tasks',
+            },},{id: "projects-gpt-fabric-leveraging-pre-trained-foundation-models-for-fabric-manipulation-tasks",
+          title: 'GPT-Fabric++ - Leveraging Pre-trained Foundation Models for fabric manipulation tasks',
           description: "Guide - Daniel Seita, University of Southern California, Los Angeles",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
