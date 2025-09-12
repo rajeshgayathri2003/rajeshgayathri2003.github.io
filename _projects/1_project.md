@@ -32,7 +32,7 @@ The networks are trained on the outdoor dataset collected at IIT Madras.
 This is a sample of an extreme low-light image given as input to the network.
 
 <div class="row">
-    <div class="col-sm-6 d-flex justify-content-center">
+    <div class="d-flex justify-content-center">
         {% include figure.liquid path="assets/img/lowlight.png" title="example image" class="img-fluid rounded z-depth-1" style="width:100%; height:250px; object-fit:cover;" %}
     </div>
 </div>
