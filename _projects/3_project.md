@@ -59,4 +59,8 @@ A two-layer RL agent is designed to make choices based on both navigation throug
     Route prediction from node 4 to node 24 using Q-learning, Deep Q Networks and Learning to Search Algorithms
 </div>
 
+Q-learning proposes a route that is longer and requires intermediate stopping, while DQN and LEARCH produce a more efficient path. <br>
+
+This method enables electric vehicles to identify a route that enables them to reach their destination taking into account dynamic pricing at charging stations and user preferences. Further, the proposed method also ensures profitability to charging stations by leveraging a Game Theory based approach to find the optimal electricity selling price.
+
 

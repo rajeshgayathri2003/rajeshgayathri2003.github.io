@@ -116,3 +116,5 @@ These are the results obtained using the modified U-net architecture.
     The ground truth image is on the left and the enhanced image is on the right.
 </div>
 
+The quality of the output images improves as the average value of PSNR (Peak-Signal-to-Noise ratio) increases. The standard U-net architecture has higher PSNR compared to the modified network. 
+
