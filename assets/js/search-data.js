@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Collection of projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -65,9 +65,9 @@ ninja.data = [{
           description: "Guide - Daniel Seita, University of Southern California, Los Angeles",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-bi-level-optimization-for-electric-vehicle-routing-and-pricing",
+          title: 'Bi-level optimization for Electric Vehicle Routing and Pricing',
+          description: "Guide - Ankur Singh Rana, NIT Tiruchirappalli, Tiruchirappalli, India",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
