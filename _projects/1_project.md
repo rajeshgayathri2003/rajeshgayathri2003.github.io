@@ -70,11 +70,18 @@ The original network takes a RAW image as its input and has four input channels.
 for the change in the number of channels, an additional convolutional layer is added at each
 step.</p>
 
+
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/modifiedUnet2.png" title="example image" class="img-fluid rounded z-depth-1" style="width:100%; height:300px; object-fit:cover;" %}
-    </div>
+  <div class="col-12 d-flex justify-content-center mt-3 mt-md-0">
+    {% include figure.liquid 
+        path="assets/img/modifiedUnet2.png" 
+        title="example image" 
+        class="img-fluid rounded z-depth-1" 
+        style="max-width:600px; height:auto;" 
+    %}
+  </div>
 </div>
+
 
 <div class="caption">
 Changes made to the modified U-net architecture to account for the change in the number of channels
