@@ -117,6 +117,7 @@ Two examples of GPT-Fabric++ rollouts for successfully smoothing t-shirts in Sof
 </div>
 
 <div class="row">
+<div class="col-12 d-flex justify-content-center mt-3 mt-md-0">
 {% include figure.liquid 
    path="assets/img/VCD_TshirtFlatten.gif" 
    title="Flattening a T-shirt" 
@@ -124,6 +125,7 @@ Two examples of GPT-Fabric++ rollouts for successfully smoothing t-shirts in Sof
    class="rounded z-depth-1" 
    style="width:360px; height:360px; object-fit:cover;" 
 %}
+</div>
 </div>
 
 In conclusion, GPT-Fabric++ is a novel method that uses GPT to achieve low-level robot manipulation tasks. We achieve comparable and competitive results to prior results without the need for extensive fabric manipulation data.
