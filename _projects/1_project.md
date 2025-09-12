@@ -5,7 +5,7 @@ description: Guide - Prof Kaushik Mitra, IIT Madras, Chennai, India
 img: assets/img/cil4.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 Images are often captured in sub-optimal lighting conditions and they cannot be used for further information extraction. They have very low illuminance in the range of 0.1 to 5 lux. <br>

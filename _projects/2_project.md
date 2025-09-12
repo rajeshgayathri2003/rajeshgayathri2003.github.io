@@ -5,7 +5,7 @@ description: Guide - Daniel Seita, University of Southern California, Los Angele
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 Fabric manipulation has widespread applications in the home and industry. This
@@ -116,4 +116,12 @@ The stepwise rollout of smoothing is given below
 Two examples of GPT-Fabric++ rollouts for successfully smoothing t-shirts in SoftGym simulation. Each rollout has five pick-and-place actions, indicated with the overlaid black arrows
 </div>
 
-
+<div class="row">
+{% include figure.liquid 
+   path="assets/img/VCD_TshirtFlatten.gif" 
+   title="Flattening a T-shirt" 
+   caption="Animated result" 
+   class="rounded z-depth-1" 
+   style="width:360px; height:360px; object-fit:cover;" 
+%}
+</div>
