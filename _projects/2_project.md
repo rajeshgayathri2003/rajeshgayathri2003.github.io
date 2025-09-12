@@ -21,9 +21,14 @@ In this work, we study fabric folding and fabric smoothing tasks.
 In the case of fabric folding, a two-step pipeline is used. Firstly, GPT-4o is given a sequence of subgoal images and asked to output language instructions that describe the folding action. Secondly, the language instruction along with the top-down image of the current fabric to be folded is given to the VLM. The VLM outputs the pick and place points for the given folding task.
 
 <div class="row">
-    <div class="d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/gptfabricfolding.png" title="example image" class="img-fluid rounded z-depth-1" style="width:100%; height:200px; object-fit:cover;" %}
-    </div>
+  <div class="col-12 d-flex justify-content-center mt-3 mt-md-0">
+    {% include figure.liquid 
+        path="assets/img/gptfabricfolding.png" 
+        title="example image" 
+        class="img-fluid rounded z-depth-1" 
+        style="max-width:300px; height:auto;" 
+    %}
+  </div>
 </div>
 The SoftGym simulation envrionment used to evaluate the experiments.
 These are the results of the double straight fold.
@@ -78,9 +83,14 @@ These are the results of the Corners Edges Inwards.
 </div>
 
 <div class="row">
-    <div class="d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/fold_sim_v02.jpg" title="example image" class="img-fluid rounded z-depth-1" style="width:100%; height:250px; object-fit:cover;" %}
-    </div>
+  <div class="col-12 d-flex justify-content-center mt-3 mt-md-0">
+    {% include figure.liquid 
+        path="assets/img/fold_sim_v02.jpg" 
+        title="example image" 
+        class="img-fluid rounded z-depth-1" 
+        style="max-width:300px; height:auto;" 
+    %}
+  </div>
 </div>
 
 <div class="caption">
@@ -90,11 +100,18 @@ Representative frame-by-frame rollouts of GPT-Fabric++ in SoftGym simulation whe
 In the case of GPT-Fabric++ smoothing, a crumbled T-shirt is given to the robot and it is asked to smoothen the same. A top-down image of the crumbled fabric is given to GPT-4o. The VLM is asked to output a picking point and a direction pull. At the end of `T` timesteps, the current coverage of the fabric is measured. The coverage achieved by the fabric is a number between 0 and 1. 
 
 The stepwise rollout of smoothing is given below
+
 <div class="row">
-    <div class="d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/smooth_sim_v01.jpg" title="example image" class="img-fluid rounded z-depth-1" style="width:100%; height:250px; object-fit:cover;" %}
-    </div>
+  <div class="col-12 d-flex justify-content-center mt-3 mt-md-0">
+    {% include figure.liquid 
+        path="assets/img/smooth_sim_v01.jpg" 
+        title="example image" 
+        class="img-fluid rounded z-depth-1" 
+        style="max-width:300px; height:auto;" 
+    %}
+  </div>
 </div>
+
 <div class="caption">
 Two examples of GPT-Fabric++ rollouts for successfully smoothing t-shirts in SoftGym simulation. Each rollout has five pick-and-place actions, indicated with the overlaid black arrows
 </div>

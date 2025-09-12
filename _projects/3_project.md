@@ -12,9 +12,8 @@ The electric vehicle routing and pricing problem is solved through a combined re
 The routing algorithms are tested on the Sioux Falls road network. The Sioux Falls road network is a network that consists of 24 nodes and 76 edges.
 
 <div class="row">
-  <div class="d-flex justify-content-center">
+  <div class="col-12 d-flex justify-content-center mt-3 mt-md-0">
     {% include figure.liquid 
-        loading="eager" 
         path="assets/img/siouxfalls.png" 
         title="example image" 
         class="img-fluid rounded z-depth-1" 

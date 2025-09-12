@@ -18,18 +18,28 @@ This project explores the use of two architectures:
 The networks are trained on the outdoor dataset collected at IIT Madras.
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid loading="eager" path="assets/img/unet.png" title="example image" class="img-fluid rounded z-depth-1" style="width:100%; height:250px; object-fit:cover;" %}
-    </div>
+  <div class="col-12 d-flex justify-content-center mt-3 mt-md-0">
+    {% include figure.liquid 
+        path="assets/img/unet.png" 
+        title="example image" 
+        class="img-fluid rounded z-depth-1" 
+        style="max-width:300px; height:auto;" 
+    %}
+  </div>
 </div>
 <div class="caption">
     U-net architecture
 </div>
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid loading="eager" path="assets/img/modifiedUnet.png" title="example image" class="img-fluid rounded z-depth-1" style="width:100%; height:250px; object-fit:cover;" %}
-    </div>
+  <div class="col-12 d-flex justify-content-center mt-3 mt-md-0">
+    {% include figure.liquid 
+        path="assets/img/modifiedUnet.png" 
+        title="example image" 
+        class="img-fluid rounded z-depth-1" 
+        style="max-width:300px; height:auto;" 
+    %}
+  </div>
 </div>
 <div class="caption">
 Modified U-net architecture
@@ -38,9 +48,14 @@ Modified U-net architecture
 This is a sample of an extreme low-light image given as input to the network.
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0 d-flex justify-content-center">
-        {% include figure.liquid path="assets/img/lowlight.png" title="example image" class="img-fluid rounded z-depth-1" style="width:100%; height:250px; object-fit:cover;" %}
-    </div>
+  <div class="col-12 d-flex justify-content-center mt-3 mt-md-0">
+    {% include figure.liquid 
+        path="assets/img/lowlight.png" 
+        title="example image" 
+        class="img-fluid rounded z-depth-1" 
+        style="max-width:300px; height:auto;" 
+    %}
+  </div>
 </div>
 
 <p> The Seeing in the Dark U-net takes in a four-channel image as its input. The RAW image data
@@ -77,7 +92,7 @@ step.</p>
         path="assets/img/modifiedUnet2.png" 
         title="example image" 
         class="img-fluid rounded z-depth-1" 
-        style="max-width:600px; height:auto;" 
+        style="max-width:300px; height:auto;" 
     %}
   </div>
 </div>
