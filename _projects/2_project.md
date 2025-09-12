@@ -76,7 +76,7 @@ These are the results of the Corners Edges Inwards.
 
 Here is a gif that demonstrates t-shirt folding
 <div>
-{% include figure.liquid path="assets/gif/VCD_TshirtFlatten.gif" title="Flattening a T-shirt" caption="Animated result" %}
+{% include figure.liquid path="assets/img/VCD_TshirtFlatten.gif" title="Flattening a T-shirt" caption="Animated result" %}
 </div>
 
 <!-- <div class="row justify-content-sm-center">
