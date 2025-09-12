@@ -18,7 +18,7 @@ The routing algorithms are tested on the Sioux Falls road network. The Sioux Fal
         path="assets/img/siouxfalls.png" 
         title="example image" 
         class="img-fluid rounded z-depth-1" 
-        style="max-width:500px; height:auto;" 
+        style="max-width:300px; height:auto;" 
     %}
   </div>
 </div>
@@ -47,13 +47,13 @@ A two-layer RL agent is designed to make choices based on both navigation throug
 
 <div class="row">
      <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cs1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/q.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cs2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dq.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cs3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/learch.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
