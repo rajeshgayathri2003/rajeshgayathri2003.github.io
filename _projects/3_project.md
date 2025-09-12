@@ -9,18 +9,25 @@ category: work
 
 The electric vehicle routing and pricing problem is solved through a combined reinforcement learning and game theoritical approach.
 
-The routing algorithms are tested on the Sioux Falls road network.
+The routing algorithms are tested on the Sioux Falls road network. The Sioux Falls road network is a network that consists of 24 nodes and 76 edges.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/siouxfalls.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Sioux Falls Road Network
+  <div class="d-flex justify-content-center">
+    {% include figure.liquid 
+        loading="eager" 
+        path="assets/img/siouxfalls.png" 
+        title="example image" 
+        class="img-fluid rounded z-depth-1" 
+        style="max-width:500px; height:auto;" 
+    %}
+  </div>
 </div>
 
-Identifying the nash equilibrium for the three charging stations. 
+<div class="caption">
+    Sioux Falls Road Network. The charging station are marked in red.
+</div>
+
+A non-cooperative Stackelberg game-theoretic price model integrated to represent interactions of EV users with charging stations. This formulation promotes pricing to arrive at a Nash equilibrium, whereby user satisfaction as well as station profitability is well balanced. 
 <div class="row">
      <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/cs1.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -36,13 +43,21 @@ Identifying the nash equilibrium for the three charging stations.
     Identifying the Nash Equilibrium at the three charging stations
 </div>
 
-Route planning using Reinforcement Learning
+A two-layer RL agent is designed to make choices based on both navigation through the road network and charging station selection, taking into account battery levels, charging station availability, and user-specified preferences. The Q-learning, Deep Q-Network (DQN) and Learning To Search algorithms are used to implement the agent, which is optimally trained with objectives to reduce cumulative travel time, charging time, and wait time. 
+
 <div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cs1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/routing.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/cs2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cs3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Route planning using RL 
+    Route prediction from node 4 to node 24 using Q-learning, Deep Q Networks and Learning to Search Algorithms
 </div>
+
 

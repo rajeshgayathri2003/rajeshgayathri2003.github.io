@@ -106,7 +106,7 @@ The stepwise rollout of smoothing is given below
 Two examples of GPT-Fabric++ rollouts for successfully smoothing t-shirts in SoftGym simulation. Each rollout has five pick-and-place actions, indicated with the overlaid black arrows
 </div>
 
-Here is a gif that demonstrates t-shirt folding
+<!-- Here is a gif that demonstrates t-shirt folding
 <div>
 {% include figure.liquid 
    path="assets/img/VCD_TshirtFlatten.gif" 
@@ -116,5 +116,5 @@ Here is a gif that demonstrates t-shirt folding
    style="width:360px; height:360px; object-fit:cover;" 
 %}
 
-</div>
+</div> -->
 
