@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b> Incoming Masters Student in Computer Science at <a href='https://cse.ucsd.edu/graduate/degree-programs/ms-program'>UC San Diego</a> </b>
+subtitle: <b> Masters Student in Computer Science at <a href='https://cse.ucsd.edu/graduate/degree-programs/ms-program'>UC San Diego</a> </b>
 
 profile:
   align: right
@@ -19,9 +19,12 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 ---
-My broad research interests lie at the intersection of `Robotics`, `Machine Learning` and `Computer Vision`. My goal is to build general purpose robots that are task agnostic, can generalise different environments and seamlessly operate in the real world.
 
-I recently graduated with a B.Tech from NIT Tiruchirappalli, India where I majored in Electrical and Electronics Engineering. Previously, I worked with the most incredible <a href='https://danielseita.github.io/'>Prof Daniel Seita</a> at the University of Southern California. My work involved leveraging the capabilities of Pre-trained foundation models for fabric manipulation tasks. 
+My broad research interests lie at the intersection of `Robotics`, `Machine Learning` and `Perception`. My goal is to build robotic systems that can reliably operate in dynamic environments and work alongside humans.
+
+Currenly, I work with Prof Henrik Christensen where I am exploring the use of Retrieval-Augmented Generation in robotic manipulation tasks. 
+
+I graduated with a B.Tech from NIT Tiruchirappalli, India where I majored in Electrical and Electronics Engineering. Previously, I worked with the most incredible <a href='https://danielseita.github.io/'>Prof Daniel Seita</a> at the University of Southern California. My work involved leveraging the capabilities of Pre-trained foundation models for fabric manipulation tasks. 
 
 As a part of my Bachelor's Thesis, I worked under Dr. Ankur Singh Rana to develop an integrated Game Theory and Reinforcement Learning approach to Electric Vehicle pricing and routing. Further, I also conducted research at the <a href= 'https://www.ee.iitm.ac.in/comp_photolab/'> Computational Imaging Lab </a> at IIT Madras under Prof Kaushik Mitra on low-light image enhancement using U-net based architectures. 
 
